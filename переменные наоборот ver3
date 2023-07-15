@@ -1,0 +1,12 @@
+string Familia = "Вася";
+string Name = "Ходулик";
+string bufer = "";
+
+Console.WriteLine($"До перестановки в порядке фамилия, имя: {Familia} {Name}");
+
+bufer = Familia;
+Familia = Name;
+Name = bufer;
+
+Console.WriteLine($"После перестановки в порядке фамилия, имя: {Familia} {Name}");
+Console.ReadKey();
